@@ -1,30 +1,43 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
+<style>
+    .column {
+        float: left;
+        width: 33.33%;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+</style>
 <body>
     <h1>Harvard Square Homeless Shelter</h1>
     <div id="homeless">A Brighter Future for Cambridge's Homeless</div>
-
     <div class="row">
         <div class="column">
-            <div>We offer two-week, one-night, and extended stay</div>
-            <div>work contract beds throughout the duration of our</div>
-            <div>season – that is, from the evening of November 1st</div>
-            <div>through the morning of April 15th.<div>
+            We offer two-week, one-night, and extended stay<br />
+            work contract beds throughout the duration of our<br />
+            season – that is, from the evening of November 1st<br />
+            through the morning of April 15th.<br />
         </div>
         <div class="column">
-            <div>Join hundreds of college students and community</div>
-            <div>members who are making a difference and</div>
-            <div>volunteering in different capacities at the Harvard</div>
-            <div>Square Homeless Shelter.</div>
+            Join hundreds of college students and community<br />
+            members who are making a difference and<br />
+            volunteering in different capacities at the Harvard<br />
+            Square Homeless Shelter.<br />
         </div>
         <div class="column">
-            <div>The Harvard Square Homeless Shelter relies on the</div>
-            <div>generosity of individual donors, alumni, and other</div>
-            <div>friends of HSHS who understand the value of our</div>
-            <div>programming and services.</div> 
+            The Harvard Square Homeless Shelter relies on the<br />
+            generosity of individual donors, alumni, and other<br />
+            friends of HSHS who understand the value of our<br />
+            programming and services.<br />
         </div>
     </div>
-    <hr />
 </body>
 </html>
