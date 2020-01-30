@@ -4,34 +4,77 @@
     <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <style>
-    .column {
+    .column3 {
         float: left;
         width: 33.33%;
+        background-color: #D74323;
+        font-family: "Trebuchet MS", arial;
+        font-size: 16px;
+        color: #FBFCFC;
+        line-height: 1.6;
     }
-    /* Clear floats after the columns */
+    .column2 {
+        display: block;
+        box-sizing: border-box;
+        float: left;
+        width: 50%;
+        background-color: #D74323;
+        font-family: "Trebuchet MS", arial;
+        font-size: 16px;
+        color: #FBFCFC;
+        line-height: 1.6;
+        padding: 2px;
+    }
+    .column2:hover {background-color: #CD9F95;}
     .row:after {
         content: "";
         display: table;
         clear: both;
     }
+    body {
+        background-color: #CB300F;
+    }
+    h1 {
+        color: #FBFCFC; 
+        font-family: cambria, arial;
+    }
+    h4 {
+        color: #FBFCFC; 
+        font-family: cambria, arial;
+        font-style: italic;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
 </style>
 <body>
     <h1 align="center">Harvard Square Homeless Shelter</h1>
-    <h4 align="center"id="homeless">A Brighter Future for Cambridge's Homeless</h4><br /><hr />
+    <h4 align="center"id="homeless">A Brighter Future for Cambridge's Homeless</h4><hr />
     <div class="row">
-        <div align="center", class="column">
+        <div align="center", class="column2" href=>
+                Services<br />
+        </div>
+        <div align="center", class="column2">
+                Contact<br />
+        </div>
+    </div><hr />
+    <img src="https://imgur.com/FWY7AHA.jpg" /><hr />
+    <div class="row">
+        <div align="center", class="column3">
                 We offer two-week, one-night, and extended stay<br />
                 work contract beds throughout the duration of our<br />
                 season – that is, from the evening of November 1st<br />
                 through the morning of April 15th.<br />
         </div>
-        <div align="center", class="column">
+        <div align="center", class="column3">
                 Join hundreds of college students and community<br />
                 members who are making a difference and<br />
                 volunteering in different capacities at the Harvard<br />
                 Square Homeless Shelter.<br />
         </div>
-        <div align="center", class="column">
+        <div align="center", class="column3">
                 The Harvard Square Homeless Shelter relies on the<br />
                 generosity of individual donors, alumni, and other<br />
                 friends of HSHS who understand the value of our<br />
