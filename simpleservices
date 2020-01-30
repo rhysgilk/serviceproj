@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+    h1 {
+        color: #FBFCFC; 
+        font-family: cambria, arial;
+    }
+    body {
+        background-color: #CB300F;
+    }
+</style>
+<body>
+    <h1>Services</h1>
+</body>
