@@ -1,0 +1,33 @@
+.column2 {
+    display: block;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    background-color: #D74323;
+    font-family: "Trebuchet MS", arial;
+    font-size: 16px;
+    color: #FBFCFC;
+    line-height: 1.6;
+    padding: 2px;
+}
+.column2:hover {background-color: #CD9F95;}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body {
+    background-color: #CB300F;
+}
+h1 {
+    color: #FBFCFC; 
+    font-family: cambria, arial;
+}
+h4 {
+    color: #FBFCFC; 
+    font-family: cambria, arial;
+    font-style: italic;
+}
+a { 
+    text-decoration: none; 
+}
