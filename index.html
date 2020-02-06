@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
 </head>
 <style>
     .column3 {
@@ -13,47 +13,27 @@
         color: #FBFCFC;
         line-height: 1.6;
     }
-    .column2 {
-        display: block;
-        box-sizing: border-box;
-        float: left;
-        width: 50%;
-        background-color: #D74323;
-        font-family: "Trebuchet MS", arial;
-        font-size: 16px;
-        color: #FBFCFC;
-        line-height: 1.6;
-        padding: 2px;
-    }
-    .column2:hover {background-color: #CD9F95;}
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    body {
-        background-color: #CB300F;
-    }
-    h1 {
-        color: #FBFCFC; 
-        font-family: cambria, arial;
-    }
-    h4 {
-        color: #FBFCFC; 
-        font-family: cambria, arial;
-        font-style: italic;
-    }
-    img {
+    .shelter {
         width: 100%;
         height: auto;
         overflow: hidden;
     }
-    a { 
-        text-decoration: none; 
+    .server {
+        display: block;
+        width: 100%;
+    }
+    @media (min-width: 850px)
+    {
+        .serving {
+            display: inline-block;
+            width: 33%;
+            height: auto;
+        }
     }
 </style>
 <body>
     <a href="index.html">
+        <img class="logo"; src="https://imgur.com/tvyJWPS.jpg" />
         <h1 align="center">Harvard Square Homeless Shelter</h1>
     </a>
     <h4 align="center"id="homeless">A Brighter Future for Cambridge's Homeless</h4><hr />
@@ -69,12 +49,12 @@
             </div>
         </a>
     </div><hr />
-    <img src="https://imgur.com/FWY7AHA.jpg" /><hr />
+    <img class="shelter"; src="https://imgur.com/FWY7AHA.jpg" /><hr />
     <div class="row">
         <div align="center", class="column3">
                 We offer two-week, one-night, and extended stay<br />
                 work contract beds throughout the duration of our<br />
-                season – that is, from the evening of November 1st<br />
+                season, that is, from the evening of November 1st<br />
                 through the morning of April 15th.<br />
         </div>
         <div align="center", class="column3">
@@ -90,5 +70,14 @@
                 programming and services.<br />
         </div>
     </div><hr />
+    <img class="serving"; src="https://imgur.com/yfcmzkk.jpg" />
+    <img class="serving"; src="https://imgur.com/gP0L0Rh.jpg" />
+    <img class="serving"; src="https://imgur.com/8T1ABU5.jpg" />
+    <div class="row"; style="background-color: #D74323">
+        <div align="center"; style="color:#FBFCFC">
+            <hr /><em>Harvard Square Homeless Shelter is open from November 1st 
+            through the morning of April 15th.</em><hr />
+        </div>
+    </div>
 </body>
 </html>
