@@ -20,6 +20,9 @@
     .logo {
         visibility: hidden;
     }
+    #footer {
+        visibility: hidden;
+    }
 }
 .logo {
     width: 90px;
